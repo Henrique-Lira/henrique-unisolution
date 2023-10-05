@@ -4,14 +4,16 @@ using Henrique.Unisolution.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Henrique.Unisolution.Migrations
 {
     [DbContext(typeof(UnisolutionDbContext))]
-    partial class UnisolutionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231005025115_Added_Tanks")]
+    partial class Added_Tanks
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
