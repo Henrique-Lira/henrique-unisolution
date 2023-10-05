@@ -1,37 +1,59 @@
-# Important
+ <h1 align="center">
+    CRUD de Tanques: Uma Solução de Gerenciamento Logístico
+</h1>
+<h1 align="center">
+  <img 
+    src="https://github.com/Henrique-Lira/henrique-unisolution/blob/master/_screenshots/ScreenshotCRUDTanks.png"
+  />
+</h1>
 
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+## 👨‍💻 Teste Técnico Desenvolvimento FullStack
+### DESCRIÇÃO
+O objetivo principal é criar uma aplicação contendo o CRUD completo da tabela Tanque: 
 
-# Introduction
+### Campos: 
+- **Depósito:** Descrição e chave única.
+- **Capacidade:** Capacidade do tanque.
+- **Tipo de Produto:** Tipo de produto armazenado.
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+### Tecnologias e Padrões Utilizados
+- **Frontend:** Angular 12
+- **Backend:** .NET 4.6.1 / Entity Framework Core / RESTful API
+- **Padrões:** DDD (Domain-Driven Design) e Injeção de Dependência
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
- 
-# Download
+## 🚀 Projeto
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+- Este projeto é uma solução completa de CRUD para a entidade "Tanque". O sistema oferece operações de criação, leitura, atualização e exclusão para registros de tanques, otimizando a logística de armazenamento.
 
-# Screenshots
+## 💻 Tecnologias
 
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
+- **Frontend:** Angular 12
+- **Backend:** .NET 4.6.1 / Entity Framework Core / RESTful API
+- **Padrões:** DDD (Domain-Driven Design) e Injeção de Dependência
 
-#### Login Page
+## 🌐 Como Rodar a Aplicação
 
-![](_screenshots/module-zero-core-template-ui-login.png)
+### Configuração do Banco de Dados
 
-# Documentation
+1. Faça o download do projeto para sua máquina.
+2. Abra a solução localizada na pasta "aspnet-full" usando o Visual Studio.
+3. No arquivo `appsettings.json` dentro do projeto "Henrique.Unisolution.Web.Host", ajuste a string de conexão do banco de dados conforme necessário.
+4. No Package Manager Console, selecione o projeto padrão como "src\Henrique.Unisolution.EntityFrameworkCore".
+5. Execute o comando `Update-Database` para criar o banco de dados com base nas configurações.
+6. Após a criação bem-sucedida do banco de dados, inicie o projeto para lançar a aplicação.
 
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+### Iniciando o Projeto Angular
 
-# License
+1. Abra um terminal e navegue até a pasta do seu projeto Angular.
+2. Instale as dependências do projeto Angular com o comando `npm install`.
+3. Inicie o servidor de desenvolvimento com `npm start`.
+4. O frontend Angular estará disponível localmente em: http://localhost:4200
 
-[MIT](LICENSE).
+### Credenciais de Login
+
+- **Usuário:** admin
+- **Senha:** 123qwe
+
+Esta aplicação é uma poderosa ferramenta de gerenciamento de tanques, permitindo controle total sobre os registros de armazenamento. Sinta-se à vontade para explorar e contribuir para este projeto!
