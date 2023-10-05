@@ -2,9 +2,7 @@
     CRUD de Tanques: Uma Solução de Gerenciamento Logístico
 </h1>
 <h1 align="center">
-  <img 
-    src="https://github.com/Henrique-Lira/henrique-unisolution/blob/master/_screenshots/unisolution.gif"
-  />
+<img src="https://github.com/Henrique-Lira/henrique-unisolution/raw/master/_screenshots/unisolution.gif" alt="UniSolution GIF">
 </h1>
 
 ## 👨‍💻 Teste Técnico Desenvolvimento FullStack
