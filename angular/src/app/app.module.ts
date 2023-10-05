@@ -38,12 +38,19 @@ import { SidebarComponent } from './layout/sidebar.component';
 import { SidebarLogoComponent } from './layout/sidebar-logo.component';
 import { SidebarUserPanelComponent } from './layout/sidebar-user-panel.component';
 import { SidebarMenuComponent } from './layout/sidebar-menu.component';
+import { TanksComponent } from './tanks/tanks.component';
+import { CreateTankComponent } from './tanks/create-tank/create-tank.component';
+import { EditTankComponent } from './tanks/edit-tank/edit-tank.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    // tanks
+    TanksComponent,
+    CreateTankComponent,
+    EditTankComponent,
     // tenants
     TenantsComponent,
     CreateTenantDialogComponent,
