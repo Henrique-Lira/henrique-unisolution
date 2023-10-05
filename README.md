@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Configuração do Banco de Dados
 
 1. Faça o download do projeto para sua máquina.
-2. Abra a solução localizada na pasta "aspnet-full" usando o Visual Studio.
+2. Abra a solução localizada na pasta "aspnet-core" usando o Visual Studio.
 3. No arquivo `appsettings.json` dentro do projeto "Henrique.Unisolution.Web.Host", ajuste a string de conexão do banco de dados conforme necessário.
 4. No Package Manager Console, selecione o projeto padrão como "src\Henrique.Unisolution.EntityFrameworkCore".
 5. Execute o comando `Update-Database` para criar o banco de dados com base nas configurações.
