@@ -3,7 +3,7 @@
 </h1>
 <h1 align="center">
   <img 
-    src="https://github.com/Henrique-Lira/henrique-unisolution/blob/master/_screenshots/ScreenshotCRUDTanks.png"
+    src="https://github.com/Henrique-Lira/henrique-unisolution/blob/master/_screenshots/unisolution.gif"
   />
 </h1>
 
