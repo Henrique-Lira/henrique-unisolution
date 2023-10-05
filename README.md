@@ -36,6 +36,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🌐 Como Rodar a Aplicação
 
+### Pré-requisitos
+
+Antes de começar, verifique se você atende aos seguintes requisitos:
+
+- **Node.js:** É necessário ter o Node.js instalado na versão 14.15.0. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
+- **.NET Framework:** É necessário ter o .NET Framework na versão 4.6.1. Você pode baixá-lo em [dotnet.microsoft.com](https://dotnet.microsoft.com/download/dotnet-framework).
+- **Entity Framework Core:** Utilizamos o Entity Framework Core. Certifique-se de estar usando uma versão compatível com o .NET Framework instalado.
+- **Angular:** O frontend da aplicação foi desenvolvido com Angular na versão 12. Verifique se você tem o Angular CLI instalado globalmente. Caso não tenha, você pode instalá-lo usando o comando `npm install -g @angular/cli`.
+
 ### Configuração do Banco de Dados
 
 1. Faça o download do projeto para sua máquina.
