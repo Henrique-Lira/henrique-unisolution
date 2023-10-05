@@ -13,7 +13,7 @@
 O objetivo principal é criar uma aplicação contendo o CRUD completo da tabela Tanque: 
 
 ### Campos: 
-- **Depósito:** Descrição e chave única.
+- **Depósito:** Descrição (Essa é a descrição e a chave).
 - **Capacidade:** Capacidade do tanque.
 - **Tipo de Produto:** Tipo de produto armazenado.
 
